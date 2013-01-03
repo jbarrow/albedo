@@ -1,0 +1,1 @@
+require 'albedo/middleware'
