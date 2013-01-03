@@ -5,7 +5,8 @@ Gem::Specification.new do |gem|
 	gem.platform	= Gem::Platform::RUBY
 	gem.authors		= ["Joseph Barrow"]
 	gem.email			= ["joe@floor4.co"]
-	gem.summary		= "OAuth 1.0A Parameter Checking"
+	gem.summary		= "%q{OAuth 1.0A Parameter Checking}"
+	gem.description = "%q{Middleware used to verify parameters and act as security in an OAuth implementation}"
 
 	gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
