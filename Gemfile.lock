@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Albedo (1.2.3)
+    albedo (0.0.1)
       rack (~> 1.4)
       simple_oauth
 
@@ -38,6 +38,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  Albedo!
+  albedo!
   rspec (~> 2.7)
   ruby-debug19
